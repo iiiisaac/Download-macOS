@@ -20,9 +20,9 @@ on:
         description: "File Type"
         required: true
         options:
-          - iso
-          - dmg
-          - zip
+          - ISO
+          - DMG
+          - ZIP
 
 run-name: Generate macOS Installer - ${{ github.event.inputs.macos_version }} ${{ github.event.inputs.file }}
 
